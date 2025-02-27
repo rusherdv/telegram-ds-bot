@@ -10,8 +10,7 @@ Este bot integra Telegram y Discord para gestionar usuarios en canales de voz me
 
 ## Requisitos
 - Python 3.7+
-- Librerías:  
-  `pyTelegramBotAPI`, `discord.py`, `asyncio`, `SpeechRecognition`, `pydub`, `python-dotenv` (opcional)  
+- Librerías: `pyTelegramBotAPI`, `discord.py`, `asyncio`, `SpeechRecognition`, `pydub`, `python-dotenv` (opcional)  
   *(Nota: `pydub` requiere `ffmpeg` instalado)*
 
 ## Configuración y Uso
@@ -24,8 +23,8 @@ Este bot integra Telegram y Discord para gestionar usuarios en canales de voz me
 2. **Instala Dependencias:**  
    Ejecuta:
    ```   
-   pip install pyTelegramBotAPI discord.py SpeechRecognition pydub python-dotenv
-   python bot.py
+   $ pip install pyTelegramBotAPI discord.py SpeechRecognition pydub python-dotenv
+   $ python bot.py
    ```
 ## Uso
 - **Listar Usuarios en Discord:** Envía mensajes como "quien esta en discord" o "estan en ds".
